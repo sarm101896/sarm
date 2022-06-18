@@ -1,0 +1,161 @@
+/* ----------------------------- */
+/* base */
+/* ----------------------------- */
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Yu Gothic', 'Helvetic';
+  color: #333;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.sectiontitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #E47B12;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* ----------------------------- */
+/* header */
+/* ----------------------------- */
+
+header {
+  background-color: #E47B12;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-title {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* ----------------------------- */
+/* kv */
+/* ----------------------------- */
+.main-visual {
+  background-image: url(../images/kv-img.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 155px 0;
+}
+
+.kv-copy {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ----------------------------- */
+/* はじめに */
+/* ----------------------------- */
+.section-text {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* ----------------------------- */
+/* 学習の心構え */
+/* ----------------------------- */
+.attitude-list {
+  text-align: center;
+}
+
+.attitude-item {
+  margin-bottom: 15px;
+}
+
+.attitude-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.bg-gray {
+  background-color: #F0F0F0;
+}
+
+/* ----------------------------- */
+/* 学習すること */
+/* ----------------------------- */
+.study-list {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.study-list-item {
+  width: 240px;
+}
+
+.link-btn {
+  background-color: #E47B12;
+  display: block;
+  line-height: 48px;
+  width: 210px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.link-btn:hover {
+  opacity: .7;
+}
+
+/* ----------------------------- */
+/* footer */
+/* ----------------------------- */
+footer {
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 48px;
+}
+
+@media screen and (max-width:768px) {
+
+  /* ----------------------------- */
+  /* header_sp */
+  /* ----------------------------- */
+  .site-title {
+    font-size: 26px;
+  }
+
+  /* ----------------------------- */
+  /* kv_sp */
+  /* ----------------------------- */
+  .kv-copy {
+    font-size: 24px;
+  }
+
+  /* ----------------------------- */
+  /* 学習すること_sp */
+  /* ----------------------------- */
+  .study-list {
+    display: block;
+  }
+
+  .study-list-item {
+    margin: 0 auto 20px;
+  }
+
+  .study-list-item:last-of-type {
+    margin-bottom: 0;
+  }
+}
